@@ -1,0 +1,86 @@
+@media  screen and (max-width:860px)  {
+    *
+{
+    font-size: 18px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+box-sizing: border-box;
+}
+.row
+{
+    display: block;
+    
+}
+.homeimage
+{
+    background-image:url("/Images/sd.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width:100%;
+}
+.imgsection
+{
+    width:100%;
+    
+    height:30vh;
+
+}
+.imgsection>.abtimg
+{
+    background:url("/Images/sd.jpg") no-repeat center center ;
+    background-size: cover;
+    height: 30vh;
+    width:100%;
+    box-shadow: -3px -3px 2px 2px gray;
+
+    padding: 0px 20px;
+}
+.contentsection
+{
+    width:100%;
+    padding: 0px 0px;
+    margin-top: 15px;
+
+
+}
+
+.contentsection>p{
+    text-align: justify;
+    box-shadow: 3px 3px 2px 2px gray;
+    font-size: 0.5rem;
+    padding: 10px;
+}
+.imageattach
+{
+    background-image:linear-gradient(to bottom,#ff000057,#0000ffa8),url("/Images/tech.jpg") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width:100%;
+
+}
+.card{
+    margin: 10px;
+    width:100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 5px 5px gray;
+
+}
+.mapsection
+{
+    width:100%;
+    height: ;
+}
+.cntform
+{
+    width:100%;
+    padding: 25px 50px;
+    /* box-shadow: 10px 10px 15px 10px gray;
+    margin-left:  10px ; */
+}
+}
